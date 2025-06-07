@@ -1,4 +1,4 @@
-# Capsule Defect Detection System
+# Capsule Anomaly Detection System
 
 A real-time quality control system that detects defective capsules using computer vision and TensorFlow Lite, deployed via Streamlit.
 
@@ -31,14 +31,17 @@ A real-time quality control system that detects defective capsules using compute
    ```bash
    git clone https://github.com/yourusername/capsule-defect-detection.git
    cd capsule-defect-detection
-2. Create and activate environment from environment.yml
+2. Create and activate conda environment 
    ```bash
-   conda env create -f environment.yml
-   conda activate capsule-defect-env
+   conda create -n Capsule_defect python=3.9.21
+   conda activate Capsule_defect
+3. Install Dependencies using requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 ## Usage
 
-1. Place your TensorFlow Lite model (model.tflite) in the project root
+1. Place your TensorFlow Lite model (model_unquant.tflite) in the project root
 2. Run the application:
 ```bash
 streamlit run app.py
@@ -61,6 +64,6 @@ Squeezes
 Pranjul Shukla
 B.E. Student at GEC Modasa
 
-LinkedIn: https://www.linkedin.com/in/pranjul-shukla-877231282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app | GitHub : https://github.com/Pranjul9947/Capsule_Detector
+LinkedIn: www.linkedin.com/in/pranjul-shukla-877231282 | GitHub : https://github.com/Pranjul9947/Capsule_anomaly
  
    
