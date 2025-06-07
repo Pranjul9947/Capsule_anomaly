@@ -1,6 +1,7 @@
 # Capsule Defect Detection System
 
-![Project Banner](https://via.placeholder.com/800x300?text=Capsule+Defect+Detection) <!-- Replace with actual image -->
+![Project Banner][000](https://github.com/user-attachments/assets/9337d40e-4957-473a-bd72-9f7c0dae28d2)
+
 
 A real-time quality control system that detects defective capsules using computer vision and TensorFlow Lite, deployed via Streamlit.
 
