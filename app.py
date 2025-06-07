@@ -78,8 +78,7 @@ class FinalVideoProcessor(VideoProcessorBase):
 # ===== Streamlit UI =====
 st.title("🔍 Final Capsule Inspector")
 st.markdown("""
-**Correct prediction interpretation**  
-Matches Teachable Machine's output format exactly
+**Prediction Interpretor** 
 """)
 
 # Add confidence threshold slider
